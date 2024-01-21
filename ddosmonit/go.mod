@@ -1,8 +1,8 @@
-module dmon
+module ddosmonit
 
 go 1.21.5
 
 require (
-	github.com/google/gopacket v1.1.19 // indirect
+	github.com/google/gopacket v1.1.19 // direct
 	golang.org/x/sys v0.0.0-20190412213103-97732733099d // indirect
 )

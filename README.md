@@ -8,6 +8,7 @@ This Packet Analysis Tool is designed to capture and analyze network packets in 
 - Supports analysis of TCP, UDP, and ICMP protocols.
 - Displays packet details such as source/destination IP, source/destination port, packet length, and TTL.
 - Identifies and displays printable payloads in network traffic.
+- JSON packet logs for deep analysis.
 
 ## Usage
 | Argument | Description                                                 |
@@ -16,3 +17,7 @@ This Packet Analysis Tool is designed to capture and analyze network packets in 
 | `-c`     | Set the packets-per-second threshold for logging.           |
 | `-x`     | Provide a comma-separated list of IPs and ports to exclude. |
 | `-i`     | Provide a comma-separated list of IPs and ports to include. |
+
+___
+
+###### Mirrors for this repository: [acid.vegas](https://git.acid.vegas/ddosmonit) • [SuperNETs](https://git.supernets.org/acidvegas/ddosmonit) • [GitHub](https://github.com/acidvegas/ddosmonit) • [GitLab](https://gitlab.com/acidvegas/ddosmonit) • [Codeberg](https://codeberg.org/acidvegas/ddosmonit)
